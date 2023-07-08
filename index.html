@@ -4,40 +4,135 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="portfolio/css/styles.css">
+    <link rel="stylesheet" href="portfolio/css/fonts.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="portfolio/scripts/arriba.js"></script>
+    <!-- Font Awesome -->
+  <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
     <!--Poppins Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <!--Bootstrap V5-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/43124feaf5.js" crossorigin="anonymous"></script>
+
+    <!--Montserrat Font-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
     <!--Icono de Desktop en title-->
     <link rel="shortcut icon" href="favicon.ico">
+    <!--Bootstrap V5-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    
     <title>Alexis Amores</title>
 </head>
 <body>
-        <nav class="navbar navbar-expand-lg navbar-black bg-light">
-            <div class="container-fluid">
+    
+    <span class="ir-arriba arrow-up2"></span>
+
+    <section class="title-section" id="barra">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+
                 <a class="navbar-brand" href="">Alexis Amores</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
           </button>
-
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto" >
+                <li class="nav-item">
+                   <a class="nav-link" href="#presentacion">Acerca de mí</a>
+                </li>
+                <li class="nav-item">
+                   <a class="nav-link" href="#habilidades">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#footer">Contacto</a>
+               </li>
+            </ul>
             </div>
-
         </nav>
-    
-        <section class="color-section" id="title">
-
-         <div class="container-fluid">
-            <div class="row">
-                <h1>Primer palabra</h1>
             </div>
-        </div>    
+
+        </section>
+    
+        <section class="color-section" id="presentacion">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="image-profile">
+                        <img class="profile" src="portfolio/images/profile-image.jpg" alt="alexis-image">
+                    </div>
+                    
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <h1>Acerca de mi</h1>
+                    <p class="text-align-justify" id="about-me">Oriundo de la ciudad de Tapachula en el estado de Chiapas, en la llamada perla del Soconusco. Graduado como Licenciado en Ingeniería en Sistemas Computacionales en la Universidad del Soconusco. Actualmente curso la carrera de Ingeniería en biotecnología en la Universidad Abierta y a distancia de México. Amante de la tecnología, la biología y la medicina, en búsqueda constante de la mejora personal y profesional. </p>
+                    
+                </div>
+            </div>
+        </div>
+            
     </section>
 
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <section class="white-section" id="habilidades">
+            <div class="container-fluid">
+    
+                <div class="row">
+
+                    <div class="col-lg-6 col-sm-12">
+                        <h2>Web Developer Skills</h2>
+                        <p class="text-align-justify">Como Developer Front End, me encuentro en constante desarrollo de mis habilidades de HTML, CSS, JavaScript. Además de seguir en constante aprendizaje de librerias de JavaScript como React y frameworks como Angular.</p>
+
+                        <h3>Soft Skills</h3>
+                        <ul class="soft-list">
+                            <li class="text-align-justify">Comunicación asertiva</li>
+                            <li class="text-align-justify">Trabajo en equipo</li>
+                            <li class="text-align-justify">Gestión del tiempo</li>
+                            <li class="text-align-justify">Resolucion de problemas</li>
+                            <li class="text-align-justify">Adaptación al cambio</li>
+                            <li class="text-align-justify">Resolución de problemas</p>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="skills-image">
+                            <image class="skills" src="portfolio/images/coding-computer.jpeg" alt="img-habilidades">        
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+    
+    <section class="color-section">
+        <div class="container-fluid">
+            <div class="row">
+                <h2>Portafolio</h2>
+            </div>
+
+        </div>
+
+
+
+    </section>
+    
+    <section class="color-section" id="contacto">
+        <div class="container-fluid">
+            <div class="contact row"> 
+                
+    </section>
+
+    
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 
   </body>
 </html>
